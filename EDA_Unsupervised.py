@@ -1,63 +1,86 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
+'''Import all the library for visulization'''
 import pandas as pd
 import numpy as np
 import re
 from pandas import plotting
-
-# for visualizations
 import matplotlib.pyplot as plt
 import seaborn as sns
 plt.style.use('fivethirtyeight')
 
+'''Import file in pandas dataframe'''
 
-# In[2]:
+df1= pd.read_csv("edge_true.csv")
+df22= pd.read_csv("edge_false.csv")
 
+'''Function to create heatmap'''
 
-df1= pd.read_csv("edge_complete.csv")
+def heatmap():
+    plt.rcParams['figure.figsize'] = (15, 8)
+    sns.heatmap(df1.corr(), cmap = 'Wistia', annot = True)
+    plt.title('Heatmap for the edge Data', fontsize = 20)
+    plt.xticks(rotation=45)
+    plt.savefig("heatmap1.png")
+    
+'''Function to create pairplot'''
 
+def pairplot():
+    plt.rcParams["axes.labelsize"] = 10
+    sns.set_style("ticks", {"xtick.major.size": 3, "ytick.major.size": 3})
+    sns.pairplot(df1)
+    plt.xticks(rotation=45)
+    plt.savefig('pairplot1.png')
+    
+'''Creating a combined DataFrame of true and false edge with a new categorical column'''
 
-# In[4]:
+df22.rename({"index": "edge"}, axis= 1, inplace= True)
+df22.set_index(['edge'], inplace= True)
+df22.drop(['Unnamed: 0'], axis= 1, inplace= True)
+df1.drop(['weight'], axis= 1, inplace= True)
+df1.columns= ['attachment', 'common', 'jc', 'resource']
+dfall= pd.concat([df1, df22], keys= ['true_edge', 'false_edge'])
+dfall.reset_index(inplace= True)
+dfall.drop(['edge'], axis= 1, inplace= True)
+dfall.rename({'level_0': "edge"}, axis= 1, inplace= True)
 
+'''function to create stripplot, boxplot, facetgrid plot, lmplot, pairplot of true vs. false edge topological score values'''
+import time
+def stripplot(x):
+    plt.rcParams['figure.figsize'] = (18, 7)
+    sns.stripplot(dfall['edge'], x, palette = 'Purples', size = 10)
+    plt.title('edge type vs attachment Score', fontsize = 20)
+    plt.savefig(str(time.time)+"stripplot.png")
+    
+for x in dfall.columns:
+    stripplot(dfall[x])
 
-del df1
+def boxplot(x):
+    plt.rcParams['figure.figsize'] = (18, 7)
+    sns.boxenplot(dfall['edge'], x, palette = 'Blues')
+    plt.title('edge type vs attachment Score', fontsize = 20)
+    plt.savefig(str(time.time) + "boxplt.png")
+    
+for x in dfall.columns:
+    boxplot(dfall[x])
 
+def facegrid1():
+    fg = sns.FacetGrid(data=dfall,hue='edge',height=5,aspect=1.5)
+    fg.map(plt.scatter,'common','resource').add_legend()
+    plt.savefig("facegrid1.png")
+    
+def facegrid2():
+    fg = sns.FacetGrid(data=dfall,hue='edge',height=5,aspect=1.5)
+    fg.map(plt.scatter,'common','jc').add_legend()
+    plt.savefig("facegrid2.png")
+    
 
-# In[3]:
-
-
-df1.head()
-
-
-# In[ ]:
-
-
-df1.drop(['Unnamed: 0', 'index', "edge"], axis= 1, inplace= True)
-
-
-# In[ ]:
-
-
-df1.rename({"level_0": "edge_type"}, axis= 1, inplace= True)
-
-
-# In[ ]:
-
-
-df1.hist(edgecolor='black', linewidth=1.2)
-fig=plt.gcf()
-fig.set_size_inches(15,6)
-
-plt.savefig("hist9.png")
-
-
-# In[ ]:
-
-
+def facegrid3():
+    fg = sns.FacetGrid(data=dfall,hue='edge',height=5,aspect=1.5)
+    fg.map(plt.scatter,'common','attachment').add_legend()
+    plt.savefig("facegrid3.png")
+    
 plt.figure(figsize=(15,10))
 plt.subplot(2,2,1)
 sns.boxplot(x='edge_type',y='attachment',data=df1)
@@ -69,87 +92,39 @@ plt.subplot(2,2,4)
 sns.boxplot(x='edge_type',y='resource',data=df1)
 plt.savefig("box9.png")
 
-
-# In[ ]:
-
-
 sns.lmplot(x="jc", y="attachment",hue="edge_type",data=df1)
 plt.savefig("lmplot91.png")
-
-
-# In[ ]:
-
 
 sns.lmplot(x="common", y="jc",hue="edge_type",data=df1)
 plt.savefig("lmplot92.png")
 
-
-# In[ ]:
-
-
 sns.lmplot(x="common", y="resource",hue="edge_type",data=df1)
 plt.savefig("lmplot93.png")
-
-
-# In[ ]:
-
 
 sns.pairplot(data=df1,hue="edge_type",palette="Set1")
 plt.suptitle("Pair Plot of edge type",fontsize=20)
 plt.savefig("pairplot9.png")
 
 
-# In[ ]:
-
-
-ff= df1.iloc[:, 1:5]
-
-
-# In[ ]:
-
-
-df1.edge_type.value_counts()
-
-
-# In[ ]:
-
+'''Doing unsupervised analysis with feature selection'''
 
 from sklearn import preprocessing
-
 scaler = preprocessing.StandardScaler()
-
+ff= dfall.drop('edge_type', axis= 1).values
 scaler.fit(ff)
 X_scaled_array = scaler.transform(ff)
 X_scaled = pd.DataFrame(X_scaled_array, columns = ff.columns)
 
-
-# In[ ]:
-
-
 from sklearn.decomposition import PCA
-
 ndimensions = 2
-
 pca = PCA(n_components=ndimensions, random_state=50)
 pca.fit(X_scaled)
 X_pca_array = pca.transform(X_scaled)
 X_pca = pd.DataFrame(X_pca_array, columns=['PC1','PC2']) 
 
-
-# In[ ]:
-
-
-yy= df1.iloc[:, 0]
-
-
-# In[ ]:
-
+yy= dfall.iloc[:, 0]
 
 yy= yy.map({"true_edge": 0, "false_edge": 1})
-
-
-# In[ ]:
-
 
 from sklearn.cluster import KMeans
 
@@ -162,30 +137,12 @@ km.fit(X_scaled)
 # predict the cluster for each data point
 y_cluster_kmeans = km.predict(X_scaled)
 
-
-# In[5]:
-
-
-import time
-
-
-# In[ ]:
-
-
 y_id_array = np.array(yy)
 df_plot = X_pca.copy()
 df_plot['ClusterKmeans'] = y_cluster_kmeans
 df_plot['edge_type'] = y_id_array # also add actual labels so we can use it in later plots
 df_plot.to_csv("df1_plot.csv")
-
-
-# In[ ]:
-
-
 import matplotlib as mpl
-
-
-# In[ ]:
 
 
 def plotData(df, groupby):
@@ -218,14 +175,7 @@ def plotData(df, groupby):
 # plot the clusters each datapoint was assigned to
 plotData(df_plot, 'ClusterKmeans')
 
-
-# In[ ]:
-
-
 plotData(df_plot, 'edge_type')
-
-
-# In[ ]:
 
 
 from sklearn.mixture import GaussianMixture
@@ -412,58 +362,4 @@ sns.barplot(x="coeff", y="feature", data=best_features.sort_values(by="coeff",as
 plt.title('Logistic Regression Absolute Value of Coefficients', fontsize=15)
 plt.tight_layout()
 plt.savefig("lr_importance.png")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
