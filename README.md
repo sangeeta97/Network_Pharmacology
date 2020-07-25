@@ -1,15 +1,13 @@
 # Network_Pharmacology
 Network Data Analysis using NetworkX
-# TensorFlow Probability
+# All_data
 
-TensorFlow Probability is a library for probabilistic reasoning and statistical
-analysis in TensorFlow. As part of the TensorFlow ecosystem, TensorFlow
-Probability provides integration of probabilistic methods with deep networks,
-gradient-based inference via automatic differentiation, and scalability to
-large datasets and models via hardware acceleration (e.g., GPUs) and distributed
-computation.
+This study’s primary goal is unraveling the mechanism of action of bioactives of Curcuma longa L. at the molecular level using protein-protein interaction network.
+The target proteins (TP) were obtained using similarity ensemble approach and they were further quried in StringDB for retriving the intraction proteins (IP) and a network graph called as true PPIN was created using Networkx library.
+Another Network was created by using all the non-existent edges between the list of TP and IP called as false PPIN. 
+The PPIN topological measure as edge scores and node scores were calculated and compared. The exploratory data analysis was performed. We identified closeness centrality as important node attribute and jaccard index as important edge attribute for a true PPIN. 
 
-Our probabilistic machine learning tools are structured as follows.
+Our All_data folder contains data for all the steps  involved in this project work.
 
 __Layer 0: TensorFlow.__ Numerical operations. In particular, the LinearOperator
 class enables matrix-free implementations that can exploit special structure
