@@ -1,5 +1,12 @@
 # Network_Pharmacology
 Network Data Analysis using NetworkX. All the script files to reproduce this study is provided. EDA_unsupervised.py contains the code used to create plots listed in All_data/node_plots and All_data/edge_score_plots folders. 
+
+mcl_clustering.py contains code to find module in a network.
+
+network_Topology.py contains code to meaure whole netwotk atrributes like average clustering, diameter, shortest path length, transitivity and density. 
+
+network_property.py contains code to measure node scores such as betweenness centrality, closeness centrality, degree, transitivity, eecentricity, and eignvector centrality. Also it contains codes for calculating edge score by using link prediction algorithms, such as jaccard index, preferential attachment score, common neighbor score and resource allocation score. 
+
 # All_data
 
 This study’s primary goal is unraveling the mechanism of action of bioactives of Curcuma longa L. at the molecular level using protein-protein interaction network.
@@ -9,7 +16,7 @@ The PPIN topological measure as edge scores and node scores were calculated and 
 
 Our All_data folder contains data for all the steps  involved in this project work.
 
-__Layer 0: TensorFlow.__ Numerical operations. In particular, the LinearOperator
+__Folder 1: .__ Numerical operations. In particular, the LinearOperator
 class enables matrix-free implementations that can exploit special structure
 (diagonal, low-rank, etc.) for efficient computation. It is built and maintained
 by the TensorFlow Probability team and is now part of
