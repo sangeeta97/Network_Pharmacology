@@ -1,0 +1,167 @@
+,Query ID,Target ID,Affinity Threshold (nM),P-Value,Max Tc,Cut Sum,Z-Score,Name,Description,Query Smiles
+2,compound_1,A4_HUMAN,5,1.0219999999999999e-63,0.8857,34.2556,112.63799999999999,APP,Amyloid-beta A4 protein,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+3,compound_1,ABCG2_HUMAN,5,4.1479999999999995e-55,0.5319,23.5402,97.1833,ABCG2,ATP-binding cassette sub-family G member 2,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+5,compound_1,ACES_HUMAN,5,3.856e-06,0.4828,9.5342,9.2696,ACHE,Acetylcholinesterase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+8,compound_1,ACPM_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFAB1,"Acyl carrier protein, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+12,compound_1,AK1BA_HUMAN,5,8.363999999999999e-44,0.6286,5.5823,76.8879,AKR1B10,Aldo-keto reductase family 1 member B10,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+13,compound_1,AK1C3_HUMAN,5,5.002e-31,0.4,9.6364,53.9496,AKR1C3,Aldo-keto reductase family 1 member C3,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+14,compound_1,AK1C4_HUMAN,5,5.34e-14,0.3585,0.3585,23.379,AKR1C4,Aldo-keto reductase family 1 member C4,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+16,compound_1,ALDR_HUMAN,5,1.3580000000000003e-12,0.6286,7.1415,20.8551,AKR1B1,Aldose reductase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+18,compound_1,ALR_HUMAN,5,5.596e-19,0.4286,17.932000000000002,32.3183,GFER,FAD-linked sulfhydryl oxidase ALR,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+19,compound_1,AOFA_HUMAN,5,3.019e-13,0.8857,10.1279,22.0276,MAOA,Amine oxidase [flavin-containing] A,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+22,compound_1,AOFB_HUMAN,5,2.1590000000000002e-18,0.7045,18.8348,31.2657,MAOB,Amine oxidase [flavin-containing] B,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+23,compound_1,BACE1_HUMAN,5,1.7920000000000002e-23,0.8857,55.558,40.3873,BACE1,Beta-secretase 1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+24,compound_1,BRSK1_HUMAN,5,3.494e-06,0.42,1.7766,9.3465,BRSK1,Serine/threonine-protein kinase BRSK1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+28,compound_1,CAH13_HUMAN,5,7.683e-14,0.8857,2.4584,23.095,CA13,Carbonic anhydrase 13,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+30,compound_1,CAH12_HUMAN,5,3.3310000000000003e-16,0.8857,20.2199,27.2944,CA12,Carbonic anhydrase 12,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+31,compound_1,CAH14_HUMAN,5,1.0279999999999999e-22,0.6667,10.6312,39.0257,CA14,Carbonic anhydrase 14,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+32,compound_1,CAH3_HUMAN,5,1.4890000000000001e-18,0.4359,2.1277,31.5552,CA3,Carbonic anhydrase 3,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+33,compound_1,CAH1_HUMAN,5,1.108e-10,0.8857,19.4384,17.4232,CA1,Carbonic anhydrase 1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+34,compound_1,CAH4_HUMAN,5,4.643e-13,0.8857,5.1627,21.691999999999997,CA4,Carbonic anhydrase 4,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+35,compound_1,CAH2_HUMAN,5,1.3330000000000003e-08,0.8857,18.2762,13.6882,CA2,Carbonic anhydrase 2,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+36,compound_1,CAH5A_HUMAN,5,2.027e-23,0.6667,6.4797,40.2915,CA5A,"Carbonic anhydrase 5A, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+37,compound_1,CAH5B_HUMAN,5,4.912e-24,0.8857,6.0819,41.3966,CA5B,"Carbonic anhydrase 5B, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+38,compound_1,CAH6_HUMAN,5,3.6579999999999996e-31,0.8857,7.044,54.1935,CA6,Carbonic anhydrase 6,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+39,compound_1,CAH7_HUMAN,5,3.4489999999999997e-29,0.8857,13.8861,50.6488,CA7,Carbonic anhydrase 7,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+40,compound_1,CAH9_HUMAN,5,8.771e-15,0.8857,21.3395,24.7834,CA9,Carbonic anhydrase 9,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+42,compound_1,CH60_HUMAN,5,2.3369999999999997e-08,0.3208,0.3208,13.2508,HSPD1,"60 kDa heat shock protein, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+44,compound_1,CHLE_HUMAN,5,3.086e-13,0.4828,12.2736,22.0103,BCHE,Cholinesterase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+45,compound_1,CIA30_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFAF1,"Complex I intermediate-associated protein 30, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+46,compound_1,CISD1_HUMAN,5,1.565e-14,0.8857,1.896,24.3334,CISD1,CDGSH iron-sulfur domain-containing protein 1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+47,compound_1,CP1A1_HUMAN,5,1.219e-56,0.3953,3.6982,99.9336,CYP1A1,Cytochrome P450 1A1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+48,compound_1,CP1B1_HUMAN,5,1.2489999999999998e-41,0.4286,9.5375,72.9847,CYP1B1,Cytochrome P450 1B1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+49,compound_1,CP24A_HUMAN,5,4.7380000000000005e-08,0.3333,0.9124,12.6995,CYP24A1,"1,25-dihydroxyvitamin D(3) 24-hydroxylase, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+50,compound_1,CP26B_HUMAN,5,1.5959999999999998e-06,0.2881,0.2881,9.9575,CYP26B1,Cytochrome P450 26B1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+54,compound_1,DCOR_HUMAN,5,2.998e-35,0.4483,1.5549,61.5301,ODC1,Ornithine decarboxylase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+56,compound_1,DHCR7_HUMAN,5,5.162000000000001e-20,0.3016,0.5873,34.1766,DHCR7,7-dehydrocholesterol reductase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+58,compound_1,DHPR_HUMAN,5,1.11e-16,0.3455,0.6418,28.7272,QDPR,Dihydropteridine reductase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+60,compound_1,DUS3_HUMAN,5,7.287000000000002e-12,0.42,4.5216,19.5452,DUSP3,Dual specificity protein phosphatase 3,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+61,compound_1,DYN1_HUMAN,5,5.676e-21,0.3455,1.6617,35.8979,DNM1,Dynamin-1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+62,compound_1,DYR1A_HUMAN,5,8.894e-06,0.42,4.1569,8.6179,DYRK1A,Dual specificity tyrosine-phosphorylation-regulated kinase 1A,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+65,compound_1,DYRK4_HUMAN,5,2.522e-07,0.42,1.1662,11.395999999999999,DYRK4,Dual specificity tyrosine-phosphorylation-regulated kinase 4,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+66,compound_1,EBP_HUMAN,5,4.86e-06,0.3016,0.5873,9.0892,EBP,"3-beta-hydroxysteroid-Delta(8),Delta(7)-isomerase",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+67,compound_1,EP300_HUMAN,5,7.606999999999999e-21,0.8857,2.8717,35.6695,EP300,Histone acetyltransferase p300,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+68,compound_1,ESR1_HUMAN,5,1.6859999999999999e-19,0.3846,24.2488,33.2538,ESR1,Estrogen receptor,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+69,compound_1,ESR2_HUMAN,5,7.68e-09,0.4359,9.801,14.1183,ESR2,Estrogen receptor beta,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+70,compound_1,FOS_HUMAN,5,3.413e-20,0.8857,2.2623,34.4991,FOS,Proto-oncogene c-Fos,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+71,compound_1,G6PT1_HUMAN,5,5.075e-08,0.3065,0.3065,12.645999999999999,SLC37A4,Glucose-6-phosphate exchanger SLC37A4,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+72,compound_1,GLR_HUMAN,5,4.679e-11,0.3846,8.0274,18.0953,GCGR,Glucagon receptor,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+74,compound_1,GP183_HUMAN,5,7.516000000000001e-20,0.322,3.3129,33.8836,GPR183,G-protein coupled receptor 183,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+76,compound_1,GPR35_HUMAN,5,1.2590000000000001e-06,0.4,1.6209,10.142000000000001,GPR35,G-protein coupled receptor 35,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+78,compound_1,GSK3B_HUMAN,5,1.152e-06,0.8205,9.9286,10.2115,GSK3B,Glycogen synthase kinase-3 beta,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+79,compound_1,HDA11_HUMAN,5,1.3550000000000002e-07,0.4186,1.6014,11.8801,HDAC11,Histone deacetylase 11,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+80,compound_1,HDAC1_HUMAN,5,5.9950000000000006e-15,0.4186,24.5343,25.0902,HDAC1,Histone deacetylase 1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+82,compound_1,HDAC2_HUMAN,5,1.442e-09,0.4186,6.4259,15.4226,HDAC2,Histone deacetylase 2,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+83,compound_1,HDAC5_HUMAN,5,4.377e-07,0.3333,1.2139,10.966,HDAC5,Histone deacetylase 5,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+84,compound_1,HDAC4_HUMAN,5,5.925e-07,0.375,3.2569,10.7299,HDAC4,Histone deacetylase 4,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+85,compound_1,HDAC6_HUMAN,5,4.931e-09,0.4186,10.2743,14.4637,HDAC6,Histone deacetylase 6,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+86,compound_1,HDAC8_HUMAN,5,1.2210000000000001e-15,0.4186,11.7907,26.345,HDAC8,Histone deacetylase 8,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+87,compound_1,HDAC9_HUMAN,5,1.549e-07,0.4186,1.3234,11.7759,HDAC9,Histone deacetylase 9,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+88,compound_1,HIF1A_HUMAN,5,2.247e-07,0.3774,1.3254,11.485999999999999,HIF1A,Hypoxia-inducible factor 1-alpha,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+89,compound_1,HPSE_HUMAN,5,1.098e-06,0.2933,1.4358,10.2488,HPSE,Heparanase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+91,compound_1,IMDH1_HUMAN,5,4.108e-15,0.3621,2.8483,25.368000000000002,IMPDH1,Inosine-5'-monophosphate dehydrogenase 1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+92,compound_1,IMDH2_HUMAN,5,3.558e-13,0.3621,6.8964,21.8994,IMPDH2,Inosine-5'-monophosphate dehydrogenase 2,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+93,compound_1,JUN_HUMAN,5,3.805e-18,0.6585,4.3458,30.8238,JUN,Transcription factor AP-1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+95,compound_1,KCC2A_HUMAN,5,9.356e-10,0.4583,1.5526,15.7597,CAMK2A,Calcium/calmodulin-dependent protein kinase type II subunit alpha,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+96,compound_1,KCNA3_HUMAN,5,1.992e-07,0.449,2.8842,11.5799,KCNA3,Potassium voltage-gated channel subfamily A member 3,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+97,compound_1,KLF5_HUMAN,5,2.5660000000000002e-11,0.3387,2.1685,18.5637,KLF5,Krueppel-like factor 5,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+98,compound_1,LGUL_HUMAN,5,8.493999999999999e-48,0.8857,4.2933,84.0572,GLO1,Lactoylglutathione lyase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+100,compound_1,LOX15_HUMAN,5,5.938e-09,0.8857,2.7889,14.3189,ALOX15,Arachidonate 15-lipoxygenase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+103,compound_1,LOX5_HUMAN,5,1.077e-13,0.8857,14.7349,22.8316,ALOX5,Arachidonate 5-lipoxygenase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+105,compound_1,LT4R1_HUMAN,5,1.509e-06,0.3684,2.4046,10.001,LTB4R,Leukotriene B4 receptor 1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+109,compound_1,MCL1_HUMAN,5,1.368e-07,0.4915,7.2491,11.8728,MCL1,Induced myeloid leukemia cell differentiation protein Mcl-1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+110,compound_1,MDR1_HUMAN,5,3.997e-15,0.4222,11.398,25.3955,ABCB1,Multidrug resistance protein 1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+111,compound_1,MET_HUMAN,5,1.679e-08,0.6122,11.9182,13.5084,MET,Hepatocyte growth factor receptor,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+112,compound_1,MIF_HUMAN,5,9.564e-21,0.3725,4.7343,35.4911,MIF,Macrophage migration inhibitory factor,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+113,compound_1,MMP1_HUMAN,5,9.61e-10,0.48,12.7717,15.7388,MMP1,Interstitial collagenase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+114,compound_1,MMP2_HUMAN,5,3.244e-10,0.48,15.539000000000001,16.5856,MMP2,72 kDa type IV collagenase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+115,compound_1,MMP9_HUMAN,5,4.141e-12,0.8857,15.0337,19.9858,MMP9,Matrix metalloproteinase-9,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+116,compound_1,MPRI_HUMAN,5,3.453e-14,0.3636,0.3636,23.7181,IGF2R,Cation-independent mannose-6-phosphate receptor,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+119,compound_1,MYG_HUMAN,5,1.6709999999999998e-33,0.3171,0.3171,58.3953,MB,Myoglobin,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+121,compound_1,NDUA1_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFA1,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+122,compound_1,NDUA4_HUMAN,5,7.772e-16,0.2941,0.2941,26.6735,NDUFA4,Cytochrome c oxidase subunit NDUFA4,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+123,compound_1,NDUA2_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFA2,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 2,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+124,compound_1,NDUA3_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFA3,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 3,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+125,compound_1,NDUA6_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFA6,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 6,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+126,compound_1,NDUA5_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFA5,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 5,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+127,compound_1,NDUA7_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFA7,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 7,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+128,compound_1,NDUA8_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFA8,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 8,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+129,compound_1,NDUA9_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFA9,"NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 9, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+130,compound_1,NDUAA_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFA10,"NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 10, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+131,compound_1,NDUAB_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFA11,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 11,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+132,compound_1,NDUAC_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFA12,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 12,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+133,compound_1,NDUAD_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFA13,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 13,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+134,compound_1,NDUB1_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFB1,NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+135,compound_1,NDUB3_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFB3,NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 3,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+136,compound_1,NDUB2_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFB2,"NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 2, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+137,compound_1,NDUB4_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFB4,NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 4,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+138,compound_1,NDUB5_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFB5,"NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 5, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+139,compound_1,NDUB6_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFB6,NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 6,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+140,compound_1,NDUB7_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFB7,NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 7,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+141,compound_1,NDUB8_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFB8,"NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 8, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+142,compound_1,NDUB9_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFB9,NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 9,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+143,compound_1,NDUBA_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFB10,NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 10,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+144,compound_1,NDUBB_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFB11,"NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 11, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+145,compound_1,NDUC1_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFC1,"NADH dehydrogenase [ubiquinone] 1 subunit C1, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+146,compound_1,NDUC2_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFC2,NADH dehydrogenase [ubiquinone] 1 subunit C2,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+147,compound_1,NDUF2_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFAF2,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 2,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+148,compound_1,NDUF3_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFAF3,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 3,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+149,compound_1,NDUF4_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFAF4,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 4,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+150,compound_1,NDUS1_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFS1,"NADH-ubiquinone oxidoreductase 75 kDa subunit, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+151,compound_1,NDUS3_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFS3,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 3, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+152,compound_1,NDUS2_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFS2,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 2, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+153,compound_1,NDUS4_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFS4,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 4, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+154,compound_1,NDUS5_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFS5,NADH dehydrogenase [ubiquinone] iron-sulfur protein 5,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+155,compound_1,NDUS6_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFS6,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 6, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+156,compound_1,NDUS7_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFS7,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 7, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+157,compound_1,NDUS8_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFS8,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 8, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+158,compound_1,NDUV2_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFV2,"NADH dehydrogenase [ubiquinone] flavoprotein 2, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+159,compound_1,NDUV1_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFV1,"NADH dehydrogenase [ubiquinone] flavoprotein 1, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+160,compound_1,NDUV3_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFV3,"NADH dehydrogenase [ubiquinone] flavoprotein 3, mitochondrial",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+161,compound_1,NEMO_HUMAN,5,1.22e-24,0.5652,1.4769999999999999,42.4825,IKBKG,NF-kappa-B essential modulator,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+162,compound_1,NF2L2_HUMAN,5,1.2969999999999996e-52,0.8857,4.824,92.7038,NFE2L2,Nuclear factor erythroid 2-related factor 2,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+163,compound_1,NFKB1_HUMAN,5,4.746999999999999e-43,0.8857,4.0823,75.5342,NFKB1,Nuclear factor NF-kappa-B p105 subunit,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+164,compound_1,NOD2_HUMAN,5,4.8959999999999996e-08,0.4375,2.0986,12.674000000000001,NOD2,Nucleotide-binding oligomerization domain-containing protein 2,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+166,compound_1,NOX4_HUMAN,5,7.1e-06,0.4138,1.0333,8.7936,NOX4,NADPH oxidase 4,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+167,compound_1,NQO2_HUMAN,5,1.636e-09,0.4359,2.6902,15.3241,NQO2,Ribosyldihydronicotinamide dehydrogenase [quinone],COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+168,compound_1,NR0B2_HUMAN,5,2.9310000000000003e-14,0.3167,0.3167,23.8455,NR0B2,Nuclear receptor subfamily 0 group B member 2,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+169,compound_1,NR1H4_HUMAN,5,2.5419999999999997e-14,0.3846,8.5971,23.9585,NR1H4,Bile acid receptor,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+171,compound_1,NU1M_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,MT-ND1,NADH-ubiquinone oxidoreductase chain 1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+172,compound_1,NU2M_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,MT-ND2,NADH-ubiquinone oxidoreductase chain 2,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+173,compound_1,NU3M_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,MT-ND3,NADH-ubiquinone oxidoreductase chain 3,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+174,compound_1,NU4LM_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,MT-ND4L,NADH-ubiquinone oxidoreductase chain 4L,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+175,compound_1,NU4M_HUMAN,5,1.94e-10,0.2941,0.2941,16.9863,MT-ND4,NADH-ubiquinone oxidoreductase chain 4,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+176,compound_1,NU5M_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,MT-ND5,NADH-ubiquinone oxidoreductase chain 5,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+177,compound_1,NU6M_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,MT-ND6,NADH-ubiquinone oxidoreductase chain 6,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+178,compound_1,NUA4L_HUMAN,5,3.8299999999999995e-31,0.2941,0.2941,54.1577,NDUFA4L2,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 4-like 2,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+185,compound_1,PACR_HUMAN,5,1.219e-40,0.3333,2.1943,71.2085,ADCYAP1R1,Pituitary adenylate cyclase-activating polypeptide type I receptor,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+187,compound_1,PD2R_HUMAN,5,1.032e-06,0.3651,3.428,10.297,PTGDR,Prostaglandin D2 receptor,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+189,compound_1,PDIA1_HUMAN,5,8.165999999999999e-07,0.2951,0.5892,10.4799,P4HB,Protein disulfide-isomerase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+190,compound_1,PE2R2_HUMAN,5,2.75e-12,0.3651,6.5760000000000005,20.305,PTGER2,Prostaglandin E2 receptor EP2 subtype,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+191,compound_1,PE2R4_HUMAN,5,2.233e-07,0.3651,4.0438,11.4907,PTGER4,Prostaglandin E2 receptor EP4 subtype,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+192,compound_1,PERM_HUMAN,5,3.0639999999999995e-08,0.434,1.864,13.0395,MPO,Myeloperoxidase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+193,compound_1,PGH1_HUMAN,5,1.4210000000000001e-08,0.8857,5.5382,13.6387,PTGS1,Prostaglandin G/H synthase 1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+195,compound_1,PPBI_HUMAN,5,1.486e-07,0.8857,1.1972,11.8085,ALPI,Intestinal-type alkaline phosphatase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+198,compound_1,PTGES_HUMAN,5,7.347000000000001e-10,0.8857,8.3319,15.9482,PTGES,Prostaglandin E synthase,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+200,compound_1,PTN1_HUMAN,5,3.827e-11,0.4048,11.333,18.2519,PTPN1,Tyrosine-protein phosphatase non-receptor type 1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+201,compound_1,PTN6_HUMAN,5,8.356999999999999e-07,0.3636,0.6811,10.4618,PTPN6,Tyrosine-protein phosphatase non-receptor type 6,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+202,compound_1,PTN7_HUMAN,5,7.967e-13,0.3529,4.0672,21.271,PTPN7,Tyrosine-protein phosphatase non-receptor type 7,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+220,compound_1,RARB_HUMAN,5,6.829000000000001e-07,0.35,2.1667,10.6192,RARB,Retinoic acid receptor beta,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+221,compound_1,S22A3_HUMAN,5,8.362e-07,0.36,0.36,10.4613,SLC22A3,Solute carrier family 22 member 3,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+222,compound_1,SENP6_HUMAN,5,1.644e-06,0.3958,2.3596,9.9343,SENP6,Sentrin-specific protease 6,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+223,compound_1,SENP7_HUMAN,5,1.8219999999999999e-06,0.3958,3.5782,9.8541,SENP7,Sentrin-specific protease 7,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+224,compound_1,SGK2_HUMAN,5,6.807e-06,0.42,1.8322,8.8264,SGK2,Serine/threonine-protein kinase Sgk2,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+225,compound_1,SHBG_HUMAN,5,9.955000000000001e-11,0.42,1.7176,17.5066,SHBG,Sex hormone-binding globulin,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+227,compound_1,ST17B_HUMAN,5,1.2880000000000001e-14,0.3889,2.1585,24.4874,STK17B,Serine/threonine-protein kinase 17B,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+230,compound_1,TAOK1_HUMAN,5,8.13e-06,0.3962,2.6107,8.6879,TAOK1,Serine/threonine-protein kinase TAO1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+231,compound_1,TAU_HUMAN,5,8.570999999999997e-72,0.8857,14.0354,127.1378,MAPT,Microtubule-associated protein tau,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+233,compound_1,TBB1_HUMAN,5,1.4799999999999998e-98,0.449,12.3787,175.1854,TUBB1,Tubulin beta-1 chain,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+235,compound_1,TBB3_HUMAN,5,2.355e-22,0.4222,0.4222,38.379,TUBB3,Tubulin beta-3 chain,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+236,compound_1,TF65_HUMAN,5,4.885e-15,0.4186,2.5918,25.2374,RELA,Transcription factor p65,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+237,compound_1,TF_HUMAN,5,6.108e-12,0.8857,4.5239,19.6828,F3,Tissue factor,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+239,compound_1,TLR9_HUMAN,5,6.692e-11,1.0,3.2666,17.8164,TLR9,Toll-like receptor 9,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+240,compound_1,TNR1A_HUMAN,5,8.482e-52,0.4167,8.9997,91.2396,TNFRSF1A,Tumor necrosis factor receptor superfamily member 1A,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+241,compound_1,TOP2A_HUMAN,5,3.5699999999999994e-66,0.6585,8.9463,117.0487,TOP2A,DNA topoisomerase 2-alpha,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+243,compound_1,TRPM5_HUMAN,5,3.3310000000000003e-16,0.322,2.121,27.2927,TRPM5,Transient receptor potential cation channel subfamily M member 5,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+245,compound_1,TRPV1_HUMAN,5,2.5419999999999997e-14,0.6087,21.6363,23.9572,TRPV1,Transient receptor potential cation channel subfamily V member 1,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
+246,compound_1,TTHY_HUMAN,5,4.352e-20,0.54,3.0538,34.3097,TTR,Transthyretin,COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC=C(C=C2)O)O
