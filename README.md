@@ -1,11 +1,11 @@
 # Network_Pharmacology
-Network Data Analysis using NetworkX
+Network Data Analysis using NetworkX. All the script files to reproduce this study is provided. EDA_unsupervised.py contains the code used to create plots listed in All_data/node_plots and All_data/edge_score_plots folders. 
 # All_data
 
 This study’s primary goal is unraveling the mechanism of action of bioactives of Curcuma longa L. at the molecular level using protein-protein interaction network.
 The target proteins (TP) were obtained using similarity ensemble approach and they were further quried in StringDB for retriving the intraction proteins (IP) and a network graph called as true PPIN was created using Networkx library.
 Another Network was created by using all the non-existent edges between the list of TP and IP called as false PPIN. 
-The PPIN topological measure as edge scores and node scores were calculated and compared. The exploratory data analysis was performed. We identified closeness centrality as important node attribute and jaccard index as important edge attribute for a true PPIN. 
+The PPIN topological measure as edge scores and node scores were calculated and compared between true PPIN and false PPIN. The exploratory data analysis was performed. We identified closeness centrality as important node attribute and jaccard index as important edge attribute for a true PPIN. 
 
 Our All_data folder contains data for all the steps  involved in this project work.
 
