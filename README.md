@@ -1,5 +1,8 @@
 # Network_Pharmacology
-Network Data Analysis using NetworkX. All the script files to reproduce this study is provided. EDA_unsupervised.py contains the code used to create plots listed in All_data/node_plots and All_data/edge_score_plots folders. 
+Network Data Analysis using NetworkX. All the script files to reproduce this study is provided.
+
+
+EDA_unsupervised.py contains the code used to create plots listed in All_data/node_plots and All_data/edge_score_plots folders. 
 
 mcl_clustering.py contains code to find module in a network.
 
@@ -14,32 +17,17 @@ The target proteins (TP) were obtained using similarity ensemble approach and th
 Another Network was created by using all the non-existent edges between the list of TP and IP called as false PPIN. 
 The PPIN topological measure as edge scores and node scores were calculated and compared between true PPIN and false PPIN. The exploratory data analysis was performed. We identified closeness centrality as important node attribute and jaccard index as important edge attribute for a true PPIN. 
 
-Our All_data folder contains data for all the steps  involved in this project work.
+Our All_data folder contains data for all the steps  involved in this project work. The step-wise analysis is explained below with the name of the respective folders containing the data.  
 
-__Folder 1: .__ Numerical operations. In particular, the LinearOperator
-class enables matrix-free implementations that can exploit special structure
-(diagonal, low-rank, etc.) for efficient computation. It is built and maintained
-by the TensorFlow Probability team and is now part of
-[`tf.linalg`](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/python/ops/linalg)
-in core TF.
+__Step 1: Bioactives_target_proteins__ This folder contains 3 csv files namely Bisdemethoxycurcumin_target_proteins, curcumin_target_proteins and desmethoxycurcumin_target_proteins obtained by searching respective bioactive compounds in (http://sea.bkslab.org/) which gives a list of putative target proteins using similarity ensemble approach. 
 
-__Layer 1: Statistical Building Blocks__
+__Step 2: Target_proteins+Interacting_proteins__
 
-* Distributions ([`tfp.distributions`](https://github.com/tensorflow/probability/tree/master/tensorflow_probability/python/distributions)):
-  A large collection of probability
-  distributions and related statistics with batch and
-  [broadcasting](https://docs.scipy.org/doc/numpy-1.14.0/user/basics.broadcasting.html)
-  semantics. See the
-  [Distributions Tutorial](https://github.com/tensorflow/probability/blob/master/tensorflow_probability/examples/jupyter_notebooks/TensorFlow_Distributions_Tutorial.ipynb).
-* Bijectors ([`tfp.bijectors`](https://github.com/tensorflow/probability/tree/master/tensorflow_probability/python/bijectors)):
-  Reversible and composable transformations of random variables. Bijectors
-  provide a rich class of transformed distributions, from classical examples
-  like the
-  [log-normal distribution](https://en.wikipedia.org/wiki/Log-normal_distribution)
-  to sophisticated deep learning models such as
-  [masked autoregressive flows](https://arxiv.org/abs/1705.07057).
+* A combined list of target proteins (219) were queried in the StringDB protein-protein interaction database for human.
+  
+* This has led to 208125 interactions for which the interaction score was varied from 150 to 999. Further to reduce the complexity of the network and to increase the confidence of the interaction, we included only edges having interaction score above 300. This has led to total 58482 interactions (edge) involving 11979 proteins (nodes). Out of 11979 proteins, 219 were target proteins (TP) and rest were interacting proteins (TP). These interaction were tabluated in edge.csv in which first column contains TP and second column contains IP. These 58482 interactions were listed in the edge_list_true_PPIN.csv. Also, another network   
 
-__Layer 2: Model Building__
+__Step 3: Model Building__
 
 * Edward2 ([`tfp.edward2`](https://github.com/tensorflow/probability/tree/master/tensorflow_probability/python/experimental/edward2)):
   A probabilistic programming language for specifying flexible probabilistic
