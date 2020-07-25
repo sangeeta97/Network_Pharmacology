@@ -25,7 +25,7 @@ __Step 2: Target_proteins+Interacting_proteins__
 
 * A combined list of target proteins (219) were queried in the StringDB protein-protein interaction database for human.
   
-* This has led to 208125 interactions for which the interaction score was varied from 150 to 999. Further to reduce the complexity of the network and to increase the confidence of the interaction, we included only edges having interaction score above 300. This has led to total 58482 interactions (edge) involving 11979 proteins (nodes). Out of 11979 proteins, 219 were target proteins (TP) and rest were interacting proteins (TP). These interaction were tabluated in edge.csv in which first column contains TP and second column contains IP. These 58482 interactions were listed in the edge_list_true_PPIN.csv. Also, another network  was created using non-existent interaction as edges and shown in the edge_list_false_PPIN.csv. 
+* This has led to 208125 interactions for which the interaction score was varied from 150 to 999. Further to reduce the complexity of the network and to increase the confidence of the interaction, we included only edges having interaction score above 300. This has led to total 58482 interactions (edge) involving 11979 proteins (nodes). Out of 11979 proteins, 219 were target proteins (TP) and rest were interacting proteins (TP). These interaction were tabluated in csv file in which first column contains TP and second column contains IP. These 58482 interactions were listed in the edge_list_true_PPIN.csv. Also, another network  was created using non-existent interaction as edges and shown in the edge_list_false_PPIN.csv. 
 
 __Step 3: True_PPIN_edge_score & True_PPIN_node_score__
 
@@ -42,9 +42,5 @@ __Step 5: Edge_score_plots & Node_plots__ A exploratory analysis of comparative 
 
 __Step 6: mcl_clustering_input_data__ we removed the insignificant edges and nodes from True_PPIN and made it sparse. We removed edges having jaccard score value above 75 percentile of True_PPIN and nodes that had closeness centrality value less than the 25 percentiles. The resulting network had 1900 nodes and 4637 edges. This data is presented in a csv file. This edgelist was passed as input to create a sparse network and further mcl_clustering algorithm was applied to this network to detect the protein modules and their corresponding pathways. 
 
-
-
-
-
-time.
-
+# For detailed study ; Please visit: 
+https://www.researchsquare.com/article/rs-31985/v1
